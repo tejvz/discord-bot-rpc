@@ -12,7 +12,7 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
 
-DC_URL = "https://dsc.gg/tejvz"
+DC_URL = "https://dsc.gg/tejv"
 RPC_NAME = "Tejvz ⛦"
 
 def clear_console():
@@ -47,7 +47,7 @@ async def on_ready():
         type=discord.ActivityType.watching,
         name=RPC_NAME,
         details="on top!!",
-        state="dsc.gg/tejvz"
+        state="dsc.gg/tejv"
     )
     await client.change_presence(status=discord.Status.online, activity=activity)
 
@@ -56,7 +56,7 @@ async def on_message(message):
     if message.author.bot:
         return
 
-    if message.content.lower().startswith(">dc"):
+    if message.content.lower().startswith("@Diablo#0395"):
         embed = Embed(
             title="Tejv On Top!",
             description="Check out our server once!",
