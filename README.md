@@ -1,2 +1,7 @@
-# discord-bot-rpc
-Run your discord bot with a rpc.
+# Cmds:
+
+``pip install -r requirements.txt``
+``python bot.py``
+
+# Errors?
+contact **tejv** on discord
