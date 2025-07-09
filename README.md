@@ -5,7 +5,7 @@
   
   pkg install git
   
-  git clone https://github.com/discord-bot-rpc/tejvz
+  git clone https://github.com/tejvz/discord-bot-rpc
   
   pip install -r requirements.txt
   
