@@ -1,7 +1,5 @@
 # Cmds:
 
-```pip install -r requirements.txt```
-```python bot.py```
-
+<pre> ```bash pip install -r requirements.txt```
 # Errors?
 contact **tejv** on discord
